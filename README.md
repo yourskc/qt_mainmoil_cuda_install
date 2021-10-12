@@ -1,1 +1,1 @@
-# qt_mainmoil_cuda_run
+# qt_mainmoil_cuda_install
