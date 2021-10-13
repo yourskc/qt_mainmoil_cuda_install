@@ -33,23 +33,23 @@ NVIDIA Jetson TX2
 
 3. Download 
 
->	sudo apt install git
->
->	sudo apt install qt5-default
->
->	git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
->
->	cd qt_mainmoil_cuda_install
+	sudo apt install git
+
+	sudo apt install qt5-default
+
+	git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
+
+	cd qt_mainmoil_cuda_install
  
 4. Install 
 
->	cd tx2
->
->	sudo ./install.sh
+	cd tx2
+
+	sudo ./install.sh
 
 5. Run
 
->	mainmoil_cuda 
+	mainmoil_cuda 
 
 browse to and open the sample data image.jpg 
 
@@ -59,9 +59,9 @@ browse to and open the sample data image.jpg
 
 1. Install Opencv from source ( recommand 4.3.0 )
 
->	The basic guide to install the latest OpenCV.
->
->	https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
+	The basic guide to install the latest OpenCV.
+
+	https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
 
 In the build step, please use the parameters
 
@@ -93,27 +93,27 @@ GTX 1060, 6.2 for Jetson TX2, 7.5 for Gefore RTX 2080 Ti.
 
 2. Install CUDA 10.2 ( necessory, even if without NVIDIA graphic card )
 
->	https://developer.nvidia.com/cuda-10.2-download-archive
+	https://developer.nvidia.com/cuda-10.2-download-archive
 
 3. Install Qt5 runtime 
 
->	sudo apt install qt5-default
+	sudo apt install qt5-default
 
 4. Install 
 
->	cd ubuntu
->
->	sudo ./install.sh
+	cd ubuntu
+
+	sudo ./install.sh
 
 5. Run
 
->	mainmoil_cuda 
->
->	in case of can't find OpenCV library, you can
->
->	export LD_LIBRARY_PATH=/usr/local/lib
->
->	or sudo add the line "LD_LIBRARY_PATH=/usr/local/lib" to /etc/environment then reboot
+	mainmoil_cuda 
+
+	in case of can't find OpenCV library, you can
+
+	export LD_LIBRARY_PATH=/usr/local/lib
+
+	or sudo add the line "LD_LIBRARY_PATH=/usr/local/lib" to /etc/environment then reboot
 
 
 <a href="https://youtu.be/FlaG7w-JT9Q"> Demo Video 01</a>
