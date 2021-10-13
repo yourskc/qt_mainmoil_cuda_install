@@ -10,23 +10,23 @@ A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 with JetPack 4.6 installed
 
 1. NVIDIA Jetson TX2 Force Recovery Mode
  
->	1. Press and hold down the Force Recovery button.
->
->	2. Press and hold down the Power button.
->
->	3. Release the Power button, then release the Force Recovery button.
+	1. Press and hold down the Force Recovery button.
+
+	2. Press and hold down the Power button.
+
+	3. Release the Power button, then release the Force Recovery button.
 
 2. NVIDIA SDK Manager and JetPack 4.6
 
->	Connect host and target with USD cable
->
->	Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) to install JetPack 4.6 on target
->
->	Finish the basic settings on target, input IP address and username/password on Host
->
->	https://developer.nvidia.com/embedded/jetpack
->
->	https://developer.nvidia.com/nvidia-sdk-manager
+	Connect host and target with USD cable
+
+	Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) to install JetPack 4.6 on target
+
+	Finish the basic settings on target, input IP address and username/password on Host
+
+	https://developer.nvidia.com/embedded/jetpack
+
+	https://developer.nvidia.com/nvidia-sdk-manager
 
 By default OpenCV 4.1.1 and CUDA 10.2 will be installed on the target 
 NVIDIA Jetson TX2
