@@ -34,21 +34,23 @@ NVIDIA Jetson TX2
 3. Download 
 
 ```
-	sudo apt install git
+sudo apt install git
 
-	sudo apt install qt5-default
+sudo apt install qt5-default
 
-	git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
+git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
 
-	cd qt_mainmoil_cuda_install
+cd qt_mainmoil_cuda_install
+
 ``` 
 
 4. Install 
 
 ```
-	cd tx2
+cd tx2
 
-	sudo ./install.sh
+sudo ./install.sh
+
 ```
 
 5. Run
