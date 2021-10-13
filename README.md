@@ -67,7 +67,7 @@ browse to and open the sample data image.jpg
 
 1. Install Opencv from source ( recommand 4.3.0 )
 
-	The basic guide to install the latest OpenCV.
+	The basic guide to install OpenCV.
 
 	https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
 
@@ -99,7 +99,7 @@ particular ( https://developer.nvidia.com/cuda-gpus ), for examples, 6.1 for Gef
 
 GTX 1060, 6.2 for Jetson TX2, 7.5 for Gefore RTX 2080 Ti.
 
-2. Install CUDA 10.2 ( necessory, even if without NVIDIA graphic card )
+2. Install CUDA 10.2 ( it's necessary, even if without NVIDIA graphic card )
 
 	https://developer.nvidia.com/cuda-10.2-download-archive
 
