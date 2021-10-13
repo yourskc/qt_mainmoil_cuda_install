@@ -18,11 +18,11 @@ A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 with JetPack 4.6 installed
 
 2. NVIDIA SDK Manager and JetPack 4.6
 
-	Connect host and target with USD cable
+	1. Connect host and target with USD cable
 
-	Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) to install JetPack 4.6 on target
+	2. Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) to install JetPack 4.6 on target
 
-	Finish the basic settings on target, input IP address and username/password on Host
+	3. Finish the basic settings on target, input IP address and username/password on Host
 
 	https://developer.nvidia.com/embedded/jetpack
 
@@ -33,23 +33,23 @@ NVIDIA Jetson TX2
 
 3. Download 
 
-	sudo apt install git
+	>sudo apt install git
 
-	sudo apt install qt5-default
+	>sudo apt install qt5-default
 
-	git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
+	>git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
 
-	cd qt_mainmoil_cuda_install
+	>cd qt_mainmoil_cuda_install
  
 4. Install 
 
-	cd tx2
+	>cd tx2
 
-	sudo ./install.sh
+	>sudo ./install.sh
 
 5. Run
 
-	mainmoil_cuda 
+	>mainmoil_cuda 
 
 browse to and open the sample data image.jpg 
 
