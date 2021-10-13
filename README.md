@@ -6,7 +6,7 @@ A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 or PC with Ubuntu 18.04
 <img src="document/images/screen2.gif">
 
 
-##1. NVIDIA Jetson TX2
+## 1. NVIDIA Jetson TX2
 
 1. NVIDIA Jetson TX2 Force Recovery Mode
  
@@ -52,7 +52,7 @@ NVIDIA Jetson TX2
 browse to and open the sample data image.jpg 
 
 
-##2. PC with Ubuntu 18.04
+## 2. PC with Ubuntu 18.04
 
 
 1. Install Opencv from source ( recommand 4.3.0 )
