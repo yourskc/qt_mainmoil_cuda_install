@@ -1,6 +1,6 @@
 # qt_mainmoil_cuda_install
 
-A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 or PC with Ubuntu 18.04
+A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 with JetPack 4.6 installed or PC with Ubuntu 18.04
 
 
 <img src="document/images/screen2.gif">
@@ -20,32 +20,34 @@ A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 or PC with Ubuntu 18.04
 
 >	Connect host and target with USD cable
 
->	Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) 
+>	Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) to install JetPack 4.6 on target
+
+>	Finish the basic settings on target, input IP address and username/password on Host
 
 >	https://developer.nvidia.com/embedded/jetpack
 
 >	https://developer.nvidia.com/nvidia-sdk-manager
 
-By default OpenCV 4.1.1 and CUDA 10.2 already be installed on the target 
+By default OpenCV 4.1.1 and CUDA 10.2 will be installed on the target 
 NVIDIA Jetson TX2
 
 3. Download 
+
+>	sudo apt install git
+
+>	sudo apt install qt5-default
 
 >	git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
 
 >	cd qt_mainmoil_cuda_install
  
-4. Install Qt5 runtime 
-
->	sudo apt install qt5-default
-
-5. Install 
+4. Install 
 
 >	cd tx2
 
 >	sudo ./install.sh
 
-6. Run
+5. Run
 
 >	mainmoil_cuda 
 
