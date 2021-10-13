@@ -8,34 +8,44 @@ A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 or PC with Ubuntu 18.04
 
 ##1. NVIDIA Jetson TX2
 
-1.1 install JetPack 4.6
+1. NVIDIA Jetson TX2 Force Recovery Mode
+ 
+>	1. Press and hold down the Force Recovery button.
 
-Hardware reset Jetson TX2, prepare a Ubuntu 18.04 host, 
+>	2. Press and hold down the Power button.
 
-follow the instructions to setup NVIDIA Jetson TX2 by using 
+>	3. Release the Power button, then release the Force Recovery button.
 
-NVIDIA SDK Manager:
+2. NVIDIA SDK Manager and JetPack 4.6
 
-https://developer.nvidia.com/embedded/jetpack
+>	Connect host and target with USD cable
+
+>	Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) 
+
+>	https://developer.nvidia.com/embedded/jetpack
+
+>	https://developer.nvidia.com/nvidia-sdk-manager
 
 By default OpenCV 4.1.1 and CUDA 10.2 already be installed on the target 
-NVIDIA TX2
+NVIDIA Jetson TX2
 
-1.2 Download 
+3. Download 
 
->	git clone https://github.com/yourskc/qt_mainmoil_cuda_run
->	cd qt_mainmoil_cuda_run
+>	git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
+
+>	cd qt_mainmoil_cuda_install
  
-1.3 Install Qt5 runtime ( if you have installed Qt5 before, please skip )
+4. Install Qt5 runtime 
 
 >	sudo apt install qt5-default
 
-1.4 Install 
+5. Install 
 
 >	cd tx2
+
 >	sudo ./install.sh
 
-1.5 Run
+6. Run
 
 >	mainmoil_cuda 
 
@@ -45,7 +55,7 @@ browse to and open the sample data image.jpg
 ##2. PC with Ubuntu 18.04
 
 
-2.1 Install Opencv from source ( recommand 4.3.0 )
+1. Install Opencv from source ( recommand 4.3.0 )
 
 >	The basic guide to install the latest OpenCV.
 
@@ -79,21 +89,21 @@ particular ( https://developer.nvidia.com/cuda-gpus ), for examples, 6.1 for Gef
 
 GTX 1060, 6.2 for Jetson TX2, 7.5 for Gefore RTX 2080 Ti.
 
-2.2 Install CUDA 10.2 ( necessory, even if without NVIDIA graphic card )
+2. Install CUDA 10.2 ( necessory, even if without NVIDIA graphic card )
 
 >	https://developer.nvidia.com/cuda-10.2-download-archive
 
-2.3 Install Qt5 runtime 
+3. Install Qt5 runtime 
 
 >	sudo apt install qt5-default
 
-2.4 Install 
+4. Install 
 
 >	cd ubuntu
 
 >	sudo ./install.sh
 
-2.5 Run
+5. Run
 
 >	mainmoil_cuda 
 
@@ -102,7 +112,6 @@ GTX 1060, 6.2 for Jetson TX2, 7.5 for Gefore RTX 2080 Ti.
 >	export LD_LIBRARY_PATH=/usr/local/lib
 
 >	or sudo add the line "LD_LIBRARY_PATH=/usr/local/lib" to /etc/environment then reboot
-
 
 
 <a href="https://youtu.be/FlaG7w-JT9Q"> Demo Video 01</a>
