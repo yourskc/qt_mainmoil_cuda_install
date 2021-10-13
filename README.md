@@ -11,21 +11,21 @@ A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 with JetPack 4.6 installed
 1. NVIDIA Jetson TX2 Force Recovery Mode
  
 >	1. Press and hold down the Force Recovery button.
-
+>
 >	2. Press and hold down the Power button.
-
+>
 >	3. Release the Power button, then release the Force Recovery button.
 
 2. NVIDIA SDK Manager and JetPack 4.6
 
 >	Connect host and target with USD cable
-
+>
 >	Download and run NVIDIA SDK Managesr on host(Ubuntu 18.04) to install JetPack 4.6 on target
-
+>
 >	Finish the basic settings on target, input IP address and username/password on Host
-
+>
 >	https://developer.nvidia.com/embedded/jetpack
-
+>
 >	https://developer.nvidia.com/nvidia-sdk-manager
 
 By default OpenCV 4.1.1 and CUDA 10.2 will be installed on the target 
@@ -34,17 +34,17 @@ NVIDIA Jetson TX2
 3. Download 
 
 >	sudo apt install git
-
+>
 >	sudo apt install qt5-default
-
+>
 >	git clone https://github.com/yourskc/qt_mainmoil_cuda_install.git
-
+>
 >	cd qt_mainmoil_cuda_install
  
 4. Install 
 
 >	cd tx2
-
+>
 >	sudo ./install.sh
 
 5. Run
@@ -60,7 +60,7 @@ browse to and open the sample data image.jpg
 1. Install Opencv from source ( recommand 4.3.0 )
 
 >	The basic guide to install the latest OpenCV.
-
+>
 >	https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
 
 In the build step, please use the parameters
@@ -102,17 +102,17 @@ GTX 1060, 6.2 for Jetson TX2, 7.5 for Gefore RTX 2080 Ti.
 4. Install 
 
 >	cd ubuntu
-
+>
 >	sudo ./install.sh
 
 5. Run
 
 >	mainmoil_cuda 
-
+>
 >	in case of can't find OpenCV library, you can
-
+>
 >	export LD_LIBRARY_PATH=/usr/local/lib
-
+>
 >	or sudo add the line "LD_LIBRARY_PATH=/usr/local/lib" to /etc/environment then reboot
 
 
