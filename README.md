@@ -2,7 +2,7 @@
 
 A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 or PC with Ubuntu 18.04.
 
-![screenshot](https://github.com/yourskc/qt_mainmoil_cuda_install/blob/master/document/images/screen2.gif?raw=true)
+<img src="document/images/screen2.gif">
 
 ##1. NVIDIA Jetson TX2
 
