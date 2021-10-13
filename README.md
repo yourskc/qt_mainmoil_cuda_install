@@ -1,8 +1,10 @@
 # qt_mainmoil_cuda_install
 
-A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 or PC with Ubuntu 18.04.
+A Qt_mainmoil_cuda installer run on NVIDIA Jetson TX2 or PC with Ubuntu 18.04
+
 
 <img src="document/images/screen2.gif">
+
 
 ##1. NVIDIA Jetson TX2
 
@@ -101,7 +103,7 @@ GTX 1060, 6.2 for Jetson TX2, 7.5 for Gefore RTX 2080 Ti.
 
 >	or sudo add the line "LD_LIBRARY_PATH=/usr/local/lib" to /etc/environment then reboot
 
-Demo video:
+
 
 <a href="https://youtu.be/FlaG7w-JT9Q"> Demo Video 01</a>
 
